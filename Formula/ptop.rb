@@ -1,13 +1,13 @@
 class Ptop < Formula
   desc "Network latency monitor with terminal UI - htop for ping"
   homepage "https://github.com/freeeve/ptop"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/freeeve/ptop/releases/download/v0.1.3/ptop-macos-aarch64.tar.gz"
-      sha256 "419b5362e6f4cfefdcfa6e7847094bfc3108f47cfe728d15e8555c70c0d4b04c"
+      url "https://github.com/freeeve/ptop/releases/download/v0.1.4/ptop-macos-aarch64.tar.gz"
+      sha256 "3c6564669dcf804f088f69bfd7fe7c00c96bed2ce8b3414cf95dd5c271d0d260"
     end
     on_intel do
       url "https://github.com/freeeve/ptop/releases/download/v#{version}/ptop-macos-x86_64.tar.gz"
